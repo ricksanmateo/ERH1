@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy Resource Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" href="#">
+                <i class="bi bi-snow2 me-2 text-dark"></i> CMU
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-4">
+                    <li class="nav-item w-100 text-center text-lg-start"><a class="nav-link px-3 py-3 py-lg-2" href="#introduction">Introduction</a></li>
+                     <li class="nav-item w-100 text-center text-lg-start"><a class="nav-link px-3 py-3 py-lg-2" href="#featured">Featured</a></li>
+                     <li class="nav-item w-100 text-center text-lg-start"><a class="nav-link px-3 py-3 py-lg-2" href="#mission">Mission</a></li>
+                      <li class="nav-item w-100 text-center text-lg-start"><a class="nav-link px-3 py-3 py-lg-2" href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="ms-auto d-flex align-items-center">
+                    <a href="#" class="nav-link">Log in</a>
+                    <a href="#" class="nav-link text-primary fw-bold">Sign up for free</a>
+                    
+                    <div class="icon-group border-start ps-3 ms-2">
+                        <i class="bi bi-box-arrow-up" title="Upload"></i>
+                        <i class="bi bi-person-circle" title="Profile"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Welcome to CMU Resource Hub</h2>
+        <p class="text-center text-muted">Start exploring content types above.</p>
+    </div>
+
+    <main id="home">
+
+        <section id="introduction" class="py-5 bg-white">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold mb-3">Unlock Your Potential with Our Academy Hub</h1>
+                        <p class="lead text-muted mb-4">
+                            Access thousands of high-quality educational resources, from expert-led video courses to comprehensive PDF guides. Everything you need to master your craft is right here.
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get Started</button>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Browse All</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <img src="https://img.freepik.com/free-vector/online-learning-concept-illustration_114360-1105.jpg" class="img-fluid rounded shadow-sm" alt="Learning illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="py-5 bg-light">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2 class="fw-bold">Featured Resources</h2>
+                    <a href="#" class="text-primary text-decoration-none">View All <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Course Thumbnail">
+                            <div class="card-body">
+                                <span class="badge bg-soft-primary text-primary mb-2" style="background-color: #e7f1ff;">Web Design</span>
+                                <h5 class="card-title fw-bold">UI/UX Design Essentials</h5>
+                                <p class="card-text text-muted small">Master the principles of modern design with this 10-part video series.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 pb-3">
+                                <button class="btn btn-outline-dark w-100">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Course Thumbnail">
+                            <div class="card-body">
+                                <span class="badge bg-soft-success text-success mb-2" style="background-color: #e8f5e9;">Science</span>
+                                <h5 class="card-title fw-bold">Advanced Physics PDF</h5>
+                                <p class="card-text text-muted small">A detailed workbook covering quantum mechanics and thermodynamics.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 pb-3">
+                                <button class="btn btn-outline-dark w-100">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Course Thumbnail">
+                            <div class="card-body">
+                                <span class="badge bg-soft-warning text-warning mb-2" style="background-color: #fffde7;">Coding</span>
+                                <h5 class="card-title fw-bold">Python Bootcamp</h5>
+                                <p class="card-text text-muted small">Go from zero to hero with Python 3. Perfect for data science and automation.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 pb-3">
+                                <button class="btn btn-outline-dark w-100">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section id="contribute" class="container py-5 mt-5">
+        <div class="bg-dark text-white p-5 rounded-4 shadow-lg overflow-hidden position-relative">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h2 class="fw-bold">Share Your Knowledge</h2>
+                    <p class="text-white-50">Upload your notes, presentations, or guides to help fellow students worldwide.</p>
+                    <button class="btn btn-light btn-lg mt-3 px-5" data-bs-toggle="modal" data-bs-target="#uploadModal">Upload Now</button>
+                </div>
+                <div class="col-md-5 d-none d-md-block text-center">
+                    <i class="bi bi-cloud-arrow-up display-1 text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="container py-5">
+        <div class="row text-center g-4">
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow-sm rounded-4 border-bottom border-primary border-4">
+                    <i class="bi bi-people-fill text-primary display-5 mb-2"></i>
+                    <h3 class="fw-bold">12k+</h3>
+                    <p class="text-muted mb-0">Active Students</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow-sm rounded-4 border-bottom border-success border-4">
+                    <i class="bi bi-file-earmark-text-fill text-success display-5 mb-2"></i>
+                    <h3 class="fw-bold">4.5k</h3>
+                    <p class="text-muted mb-0">Resources</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow-sm rounded-4 border-bottom border-warning border-4">
+                    <i class="bi bi-star-fill text-warning display-5 mb-2"></i>
+                    <h3 class="fw-bold">4.9</h3>
+                    <p class="text-muted mb-0">Average Rating</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 bg-white shadow-sm rounded-4 border-bottom border-info border-4">
+                    <i class="bi bi-cloud-download-fill text-info display-5 mb-2"></i>
+                    <h3 class="fw-bold">50k+</h3>
+                    <p class="text-muted mb-0">Downloads</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="groups" class="container py-5">
+        <h2 class="fw-bold mb-4">Join Study Groups</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <span class="bg-primary text-white p-3 rounded-circle d-inline-block">
+                                <i class="bi bi-code-slash fs-3"></i>
+                            </span>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="fw-bold mb-1">Web Development Prep</h5>
+                            <p class="text-muted small mb-2">142 members • Active now</p>
+                            <button class="btn btn-sm btn-outline-primary">Join Group</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <span class="bg-success text-white p-3 rounded-circle d-inline-block">
+                                <i class="bi bi-calculator fs-3"></i>
+                            </span>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="fw-bold mb-1">Calculus II Mastermind</h5>
+                            <p class="text-muted small mb-2">89 members • Weekly meetups</p>
+                            <button class="btn btn-sm btn-outline-success">Join Group</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">What Our Learners Say</h2>
+                <p class="text-muted">Join thousands of students who have accelerated their learning.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text small">"The Python bootcamp resources helped me land my first internship. The community notes are a lifesaver!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">AR</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold small">Alex Rivera</h6>
+                                    <small class="text-muted" style="font-size: 0.75rem;">CS Student</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                            </div>
+                            <p class="card-text small">"As a teacher, I love how easy it is to share my physics PDFs with students across the globe. Great UI!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">SL</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold small">Sarah Lim</h6>
+                                    <small class="text-muted" style="font-size: 0.75rem;">Educator</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text small">"The UI/UX design guides are top-notch. I went from knowing nothing to building my own portfolio."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle bg-info text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">JD</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold small">Jordan Doe</h6>
+                                    <small class="text-muted" style="font-size: 0.75rem;">Designer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card border-0 h-100 shadow-sm">
+                        <div class="card-body">
+                            <div class="text-warning mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text small">"I finally found a place that organizes high-quality medical research papers. Extremely helpful hub!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <div class="rounded-circle bg-warning text-dark d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">MK</div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold small">Maria Khan</h6>
+                                    <small class="text-muted" style="font-size: 0.75rem;">Medical Student</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="about" class="py-5">
+    
+        <section id="mission" class="container mb-5 py-5 text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold mb-4">Our Mission</h2>
+                    <p class="lead text-secondary">
+                        At Academy, our mission is to <strong>democratize education</strong> by providing a centralized hub where students and educators can share high-quality resources for free. We believe that access to knowledge is a fundamental right, and we strive to bridge the gap between curiosity and expertise.
+                    </p>
+                    <div class="mt-4">
+                        <i class="bi bi-quote fs-1 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="container my-5 text-muted opacity-25">
+
+        <section id="contact" class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4">Get in Touch</h2>
+                    <p class="text-muted mb-4">Have questions about our resources or want to contribute? Our team is here to help you.</p>
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary text-white rounded-circle p-3 me-3">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">Location</h6>
+                            <p class="mb-0 text-muted">123 Education Lane, Learning City</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary text-white rounded-circle p-3 me-3">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">Email</h6>
+                            <p class="mb-0 text-muted">support@academyhub.edu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card shadow-sm border-0 p-4">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email address</label>
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="How can we help?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
