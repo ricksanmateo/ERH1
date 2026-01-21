@@ -23,3 +23,22 @@
     cursor: pointer;
     color: #555;
 }
+
+.category-card {
+    transition: all 0.2s ease-in-out;
+    color: #333;
+}
+
+.category-card:hover {
+    background-color: #0d6efd; /* Bootstrap Primary */
+    transform: scale(1.05);
+}
+
+.category-card:hover i, 
+.category-card:hover h6 {
+    color: white !important;
+}
+
+#resources .list-group-item:hover {
+    background-color: #f8f9fa;
+}
